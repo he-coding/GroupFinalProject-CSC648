@@ -18,7 +18,7 @@
 | Student Name | Student Email | GitHub Username |
 |    :---:     |     :---:     |     :---:       |
 | Ziming Wang | wzmsilver5@gmail.com | wangziming0915 |
-| Dominic Zhao |hezhao@outlook.com |he-coding    |
+| He Zhao |hezhao@outlook.com |he-coding    |
 | Jessica Zepeda | jzepeda1@mail.sfsu.edu |  jessica-zepeda |
 | Onkar Singh    | osingh@mail.SFSU.edu   | onk-ar         |
 | Tanbir singh      |tsingh6@mail.sfsu.edu  | Tanbir-S                |
