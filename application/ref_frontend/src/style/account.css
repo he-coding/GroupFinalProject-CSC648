@@ -1,0 +1,50 @@
+.account-page{
+    padding: 4rem;
+}
+
+.body-page{
+    margin: 0 auto;
+    text-align: start;
+    padding: 10px;
+    position: relative;
+}
+
+.div-resize{
+    padding: 3.4rem;
+}
+
+.div-right{
+    padding: 0 2rem;
+}
+
+.account-info{
+    font-size: 45px;
+    font-weight: bold;
+    color: #34c972;
+    margin: 5%;
+}
+
+.title-name{
+    font-size: 45px;
+    margin: 5%;
+}
+
+.date-created{
+    font-size: 30px;
+    margin: 5%;
+}
+
+.rowC{
+    display:flex; 
+    flex-direction:row;
+    padding: 1.5rem;
+}
+
+.account-details{
+    display: flex; 
+    justify-content: flex-end;
+    border: 1px solid;
+    height: 40vh;
+    width: 60vw;
+    margin: 0 auto;
+}

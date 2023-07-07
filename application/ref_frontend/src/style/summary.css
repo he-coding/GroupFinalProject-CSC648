@@ -1,0 +1,55 @@
+.summary-page{
+    padding: 4rem;
+}
+
+.piechart-div{
+    height: 300px;
+}
+
+.stats-details{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    height: 40vh;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.rowC{
+    display:flex; 
+    flex-direction:row;
+    padding: 1.5rem;
+}
+
+.colC{
+    margin: 0 140px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.food-description{
+    border: 1px solid;
+    height: 300px;
+    width: 80vw;
+    margin: 10% auto;
+    padding: 2rem;
+}
+
+.description-items{
+    display: grid;
+    grid-template-columns: repeat(3 ,auto);
+    list-style: none;
+    text-align: center;
+    padding: 8% 0;
+}
+
+.description-s{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.food-title{
+    font-size: 45px;
+}

@@ -1,0 +1,175 @@
+.list-page{
+    margin: 3rem;
+}
+
+.list-title{
+    display: grid;
+    grid-template-columns: repeat(2 ,auto);
+    grid-gap: 30%;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    margin-right: 4rem;
+}
+.refn{
+  text-decoration: none;
+  color: black;
+}
+.refn :hover{
+  color: #1fb65e;
+}
+.title{
+    padding: 0px 300px 0px 10px;
+}
+
+.searchBar{
+    padding:20px 100px 20px 10px ;
+    width: 300px;
+}
+
+.rowC{
+    display:flex; 
+    flex-direction:row;
+    padding: 1.5rem;
+}
+
+.listContainer {
+    display: grid;
+    grid-template-rows: auto;
+    border-right: 1px solid;
+    padding-bottom: 10%;
+  }
+
+.lists-name{
+    padding: 2rem;
+}
+
+.item-position{
+    margin-bottom: 4rem;
+}
+.list-menu{
+    list-style: none;
+}
+
+.listname{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+.list-item{
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.active{
+    color: #34c972;
+}
+.list-item:hover{
+    color: #34c972;
+    border-radius: 4px;
+    transition: all 0.2s ease out;
+    text-decoration: none;
+}
+
+.modalPositon{
+    margin: 10%;
+}
+
+.category-primary{
+    display: grid;
+    grid-template-columns: repeat(2 ,auto);
+    grid-gap: 30%;
+    list-style: none;
+    text-align: center;
+    width: 80vw;
+}
+
+.listname-title{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #34c972;
+}
+
+.category-name{
+    display: flex; 
+    justify-content: start;
+    border: 1px solid;
+    height: 8vh;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 1.2rem;
+}
+.category{
+    width: 20%;
+}
+.foodname-item{
+    margin-left: 40px;
+    width: 65%;
+    font-weight: Bold;
+}
+
+.remove-button{
+    margin-left: 100px;
+    padding: 5rem;
+}
+
+.button_add{
+    height: 60px;
+}
+
+.drop {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+    background-color: white;
+  }
+  
+  .drop-header {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .drop-body {
+    padding: 5px;
+    border-top: 1px solid #E5E8EC;
+    display: none;
+  }
+  
+  .drop-body.open {
+    display: block;
+  }
+  
+  .drop-item {
+    padding: 10px;
+  }
+  
+  .drop-item:hover {
+    cursor: pointer;
+  }
+  
+  .drop-item-dot {
+    opacity: 0;
+    color: #91A5BE;
+    transition: all .2s ease-in-out;
+  }
+  
+  .drop-item-dot.selected {
+    opacity: 1;
+  }
+  
+  .icon {
+    font-size: 13px;
+    color: #91A5BE;
+    transform: rotate(0deg);
+    transition: all .2s ease-in-out;
+  }
+  
+  .icon.open {
+    transform: rotate(90deg);
+  }
